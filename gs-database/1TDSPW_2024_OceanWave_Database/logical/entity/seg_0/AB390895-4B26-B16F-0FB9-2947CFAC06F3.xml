@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB390895-4B26-B16F-0FB9-2947CFAC06F3" name="TB_OCEANWAVE_COLABORADORES">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:12:05 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_colaborador" id="B7A52D92-DDBB-EF2B-8873-47BA4E31C207">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:14:58 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ong" id="32702AC8-5DC9-DC36-8AFC-D87FE2733AE0">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 02:47:38 UTC</createdTime>
+<generatorID>40A4AA8E-277B-70A3-E639-C096A16E48FA</generatorID>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<referedAttribute>7B71F30A-22A0-8FF5-761C-1F7BFC2C4AA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="DD34E60D-30EC-C620-9970-3359DF737088">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:15:03 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="53A12B31-AB11-21E2-39DB-69F0FF3FA525">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:15:08 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C6DCC71B-20C7-C1DA-76C8-E362434CDC11">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:15:18 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F32EC5D-20D9-70E5-9B25-94BC935230D5" name="COLABORADORES PK">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:15:35 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7A52D92-DDBB-EF2B-8873-47BA4E31C207</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BBBAEF4-3553-7BD0-0D82-0F2D279E9133" name="TB_OCEANWAVE_MEDICOES">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:12:37 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medicao" id="8185D707-4007-35F3-4BF6-61F439EBC7CD">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:17:30 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sensor" id="530DE516-5E8E-5090-59D5-D2CEE33EAFD2">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 02:46:24 UTC</createdTime>
+<generatorID>C147794B-E8F4-A374-057D-FC76DB20D1ED</generatorID>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<referedAttribute>7D932943-9681-3222-73A4-E31AE517846C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperatura" id="0BD80B13-2601-372F-3702-550ED3E67A04">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:17:43 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ph" id="05D35281-25EE-06E1-AC18-F83CE4AAB2A8">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:17:56 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oxigenio_dissolvido" id="EE5AB4AB-5FE8-717E-1CAD-5F4EDAC68D3C">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:18:01 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plastico" id="5C68BDED-01ED-AD8D-0EF1-8B7DF47C88F8">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:18:13 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="outras_substancias" id="25BC4007-9CCB-2EF4-FC69-4ED548E35EAA">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 04:56:46 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_hora" id="C47BB1FE-8F75-BA27-7619-B12E6A662266">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:17:34 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1008F910-1CE4-C9CE-FFDB-9597213F9386" name="MEDICOES PK">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 02:46:47 UTC</createdTime>
+<ownerDesignName>1TDSPW_2024_OceanWave_Database</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8185D707-4007-35F3-4BF6-61F439EBC7CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

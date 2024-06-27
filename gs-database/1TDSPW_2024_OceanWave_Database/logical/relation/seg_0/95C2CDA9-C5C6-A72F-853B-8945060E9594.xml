@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FINANCIAM" directorySegmentName="seg_0" id="95C2CDA9-C5C6-A72F-853B-8945060E9594">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 04:59:21 UTC</createdTime>
+<ownerDesignName>1TDSPW_OCEANWAVE</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<sourcePk>2A41C9ED-46CD-FA7B-3465-317F998DBEF9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7378E1D-D255-956F-9DBC-D9DF238BBA96</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>324B164F-B7A0-1057-8A99-96F0EDF5DC8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

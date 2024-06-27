@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="1TDSPW_OCEANWAVE" id="1254D5A0-0CCA-A666-1A3E-CAF69F7CD466" version="3.5">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-01 17:11:49 UTC</createdTime>
+<ownerDesignName>1TDSPW_OCEANWAVE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1254D5A0-0CCA-A666-1A3E-CAF69F7CD466</designId>
+</OSDM_Design>

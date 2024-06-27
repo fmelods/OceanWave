@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TÊM" directorySegmentName="seg_0" id="01E97739-6B56-16E6-5E5C-530583A04389">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 04:37:34 UTC</createdTime>
+<ownerDesignName>1TDSPW_OCEANWAVE</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<sourcePk>2F7967B9-6D0B-F293-C0E4-207F80980C24</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0194AC92-CC7B-923D-AED4-3668FA2B3DB5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6033E7FA-474A-568E-362D-4FC6EBA355AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

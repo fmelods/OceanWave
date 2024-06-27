@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACIONA" directorySegmentName="seg_0" id="C2EED792-D161-895C-D1EA-69BAB01EF55A">
+<createdBy>felip</createdBy>
+<createdTime>2024-06-02 05:47:23 UTC</createdTime>
+<ownerDesignName>1TDSPW_OCEANWAVE</ownerDesignName>
+<engineerTo>
+<item key="0217503F-332B-BA6D-6DA2-EF7E88D2B398" value="true"/>
+</engineerTo>
+<sourcePk>63C4F188-2D15-1F30-5E70-911DD7A386E3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC03F151-DB51-8BA3-B234-FB7C463303F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60748AEC-00F5-6988-474E-F9543833BFBA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
