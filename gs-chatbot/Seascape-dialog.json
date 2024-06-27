@@ -1,0 +1,1904 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Blz, entendi"
+        },
+        {
+          "text": "Entendi, muito obrigado"
+        },
+        {
+          "text": "Entendi, tmj"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Obg"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "obrigado pela informação"
+        },
+        {
+          "text": "Obrigado Seascape"
+        },
+        {
+          "text": "OK, obrigado"
+        },
+        {
+          "text": "Tamo junto"
+        },
+        {
+          "text": "Tmj"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Vlw"
+        },
+        {
+          "text": "Você é demais, obrigado"
+        }
+      ],
+      "description": "Usuário agradecerá o chat"
+    },
+    {
+      "intent": "cadastro-end",
+      "examples": [
+        {
+          "text": "Como criar uma conta?"
+        },
+        {
+          "text": "Como eu faço o cadastro?"
+        },
+        {
+          "text": "Como faço para me cadastrar?"
+        },
+        {
+          "text": "Gostaria de realizar um cadastro para login"
+        },
+        {
+          "text": "Pode me ajudar a me cadastrar?"
+        },
+        {
+          "text": "Preciso de ajuda para me cadastrar."
+        },
+        {
+          "text": "Preciso fazer um cadastro."
+        },
+        {
+          "text": "Preciso me cadastrar"
+        },
+        {
+          "text": "Quais são os passos para fazer o cadastro?"
+        },
+        {
+          "text": "Quaro registrar meu endereço"
+        },
+        {
+          "text": "Quero me cadastrar"
+        },
+        {
+          "text": "Quero me cadastrar."
+        },
+        {
+          "text": "Seria interessante me cadastrar por aqui"
+        }
+      ],
+      "description": "Cadastro do usuário"
+    },
+    {
+      "intent": "conhecer_projeto",
+      "examples": [
+        {
+          "text": "Do que se trata?"
+        },
+        {
+          "text": "Gostaria de conhecer o projeto"
+        },
+        {
+          "text": "Gostaria de entender melhor esse projeto inteiro"
+        },
+        {
+          "text": "Gostaria de saber quais seriam os objetivos desse projeto no futuro"
+        },
+        {
+          "text": "Para qual futuro desejam caminhar com esse projeto?"
+        },
+        {
+          "text": "Preciso entende melhor esse projeto"
+        },
+        {
+          "text": "Quais os planos para o futuro do projeto?"
+        },
+        {
+          "text": "Quais são os objetivos do projeto?\""
+        },
+        {
+          "text": "Qual o objetivo principal do projeto?"
+        },
+        {
+          "text": "Qual seria o foco principal do projeto como um todo?"
+        },
+        {
+          "text": "Quero conhecer melhor o projeto"
+        },
+        {
+          "text": "Quero saber como funciona esse projeto de vocês"
+        }
+      ],
+      "description": "Intenção de conhecer melhor o projeto."
+    },
+    {
+      "intent": "curiosidade_especies",
+      "examples": [
+        {
+          "text": "curiosidade especies"
+        },
+        {
+          "text": "Gostaia de entender melhor sobre algumas espécies"
+        },
+        {
+          "text": "Gostaria de entender melhor sobre algumas espécies marítimas"
+        },
+        {
+          "text": "Poderia tirar algumas dúvidas de algumas espécies"
+        },
+        {
+          "text": "Queria tirar algumas dúvidas sobre algumas espécies"
+        },
+        {
+          "text": "Queria tirar dúvidas sobre uma espécie"
+        },
+        {
+          "text": "Quero asaber mais sobre algumas espécies"
+        },
+        {
+          "text": "Quero conhecer melhor uma espécie"
+        },
+        {
+          "text": "Quero opção de tirar dúvidas das espécies"
+        },
+        {
+          "text": "Seria legal tirar algumas dúvidas sobre algumas espécies"
+        },
+        {
+          "text": "Sou um pouco curioso, e gosto muito de algumas espécies, quero conhecer melhor sobre uma"
+        },
+        {
+          "text": "Tenho algumas dúvidas de algumas espécies"
+        },
+        {
+          "text": "Tenho dúvida sobre uma espécie em especifico"
+        }
+      ],
+      "description": "Intenção de curiosidades referente às especiés"
+    },
+    {
+      "intent": "curiosidade_Peixe-boi-da-Amazônia",
+      "examples": [
+        {
+          "text": "Agora sobre o Peixe-boi-da-Amazônia, por favor"
+        },
+        {
+          "text": "Curiosidade do Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Gostaria de saber mais sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Gostaria de saber sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Me conte um pouco mais sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Me conte um pouco sobre Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Me explica sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Me explica um pouco sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Me traz algumas características do Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Por que o Peixe-boi-da-Amazônia está entrando em extinção?"
+        },
+        {
+          "text": "Queria entender melhor sobre o caso do Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Sobre o Peixe-boi-da-Amazônia"
+        },
+        {
+          "text": "Sobre o Peixe-boi-da-Amazônia também"
+        }
+      ],
+      "description": "Descrever ao usuário uma pouco sobre o Peixe-boi-da-Amazônia"
+    },
+    {
+      "intent": "curiosidade_Tubarão-branco",
+      "examples": [
+        {
+          "text": "Agora sobre o Tubarão-branco"
+        },
+        {
+          "text": "Amo tubarões, me conte mais sobre a extinção do Tubarão-branco"
+        },
+        {
+          "text": "Gostaria de conhecer mais sobre o Tubarão-branco"
+        },
+        {
+          "text": "Me conte agora sobre o Tubarão-branco"
+        },
+        {
+          "text": "Me conte curiosidades sobre o Tubarão-branco"
+        },
+        {
+          "text": "Me explica agora sobre o Tubarão-branco"
+        },
+        {
+          "text": "O que está acontecendo com a espécie de Tubarão-branco?"
+        },
+        {
+          "text": "O Tubarão-branco está próximo da extinção?"
+        },
+        {
+          "text": "Queria saber mais sobre o Tubarão-branco"
+        },
+        {
+          "text": "Tubarão-branco"
+        },
+        {
+          "text": "Tubarão-branco, me conte agora sobre ele"
+        },
+        {
+          "text": "Tubarão-branco, por favor"
+        },
+        {
+          "text": "Tubarão-branco também"
+        }
+      ],
+      "description": "Contar ao usuário sobre algumas curiosidades sobre o Tubarão-branco"
+    },
+    {
+      "intent": "curiosidade_vaquita",
+      "examples": [
+        {
+          "text": "curiosidades da vaquita"
+        },
+        {
+          "text": "Estou conhecendo agora a vaquita"
+        },
+        {
+          "text": "Gostaria de conhecer mais sobre a vaquita"
+        },
+        {
+          "text": "Gostaria de conhecer melhor a vaquita"
+        },
+        {
+          "text": "gostaria de conhecer também a vaquita"
+        },
+        {
+          "text": "me explique sobre a vaquita"
+        },
+        {
+          "text": "me fale mais sobre a vaquita"
+        },
+        {
+          "text": "Nunca ouvi falar da vaquita"
+        },
+        {
+          "text": "Nunca vi uma vaquita"
+        },
+        {
+          "text": "o que seria a vaquita"
+        },
+        {
+          "text": "que animal estranho, vaquita"
+        },
+        {
+          "text": "Sobre a vaquita"
+        },
+        {
+          "text": "vaquita"
+        }
+      ],
+      "description": "Usuário quer saber mais da vaquita"
+    },
+    {
+      "intent": "extincao",
+      "examples": [
+        {
+          "text": "devido às problemáticas, quais animais estão ficando extintos?"
+        },
+        {
+          "text": "extinção"
+        },
+        {
+          "text": "Extinção dos animais"
+        },
+        {
+          "text": "Gostaria de saber quais animais estão em extinção"
+        },
+        {
+          "text": "há muitos animais entrando em extinção"
+        },
+        {
+          "text": "Poderia me falar quais são os animais que estão ficando extintos?"
+        },
+        {
+          "text": "quais animais estão em extinção"
+        },
+        {
+          "text": "Quais animais estão entrando em extinção?"
+        },
+        {
+          "text": "será que há muitos animais entrando em extinção?"
+        },
+        {
+          "text": "Será que têm muitos animais entrando em extinção?"
+        },
+        {
+          "text": "Seria sobre a extinção dos animais"
+        },
+        {
+          "text": "Tenho dúvidas sobre as extinções dos animais marinhos"
+        },
+        {
+          "text": "Você conhece os animais que estão entrando em extinção?"
+        }
+      ],
+      "description": "Sobre quais espécies estão entrando em extinção"
+    },
+    {
+      "intent": "nossa_solucao",
+      "examples": [
+        {
+          "text": "Como funciona essa solução de vocês?"
+        },
+        {
+          "text": "Como irão solucionar isso?"
+        },
+        {
+          "text": "Como solucionar?"
+        },
+        {
+          "text": "Como solucionarão?"
+        },
+        {
+          "text": "Me conte sobre a solução da OceanWave"
+        },
+        {
+          "text": "Me conte sobre a soluçãop"
+        },
+        {
+          "text": "Qual é a solução de vocês?"
+        },
+        {
+          "text": "Quantas problemáticas..."
+        },
+        {
+          "text": "Sim, me explique a solução de vocês"
+        },
+        {
+          "text": "Sobre a solução agora"
+        },
+        {
+          "text": "Solução"
+        },
+        {
+          "text": "Todos os problemas serão solucionados como?"
+        }
+      ],
+      "description": "Demonstraremos nossa solução"
+    },
+    {
+      "intent": "poluente_quimico",
+      "examples": [
+        {
+          "text": "Eu queria entender Poluentes Químicos"
+        },
+        {
+          "text": "Gostaria de entender mais de Poluentes Químicos"
+        },
+        {
+          "text": "Mas como os Poluentes Químicos acabam com o mundo?"
+        },
+        {
+          "text": "Me fala mais sobre os Poluentes Químicos"
+        },
+        {
+          "text": "Me fala sobre os Poluentes Químicos"
+        },
+        {
+          "text": "poderia me dizer mais sobre os Poluentes Químicos"
+        },
+        {
+          "text": "Poluentes Químicos"
+        },
+        {
+          "text": "Queria entender Poluentes Químicos"
+        },
+        {
+          "text": "Queria entender sobre o Poluentes Químicos"
+        },
+        {
+          "text": "Queria entender um pouco mais sobre Poluentes Químicos"
+        },
+        {
+          "text": "Sobre os Poluentes Químicos"
+        },
+        {
+          "text": "Sobre Poluentes Químicos, como são?"
+        }
+      ],
+      "description": "Explicará sobre o poluente quimico"
+    },
+    {
+      "intent": "poluentes",
+      "examples": [
+        {
+          "text": "Gostaria de entender sobre as substâncias na agua"
+        },
+        {
+          "text": "Me dê exemplos de poluentes da água"
+        },
+        {
+          "text": "Me dê exemplos de poluentes na água"
+        },
+        {
+          "text": "Me explique sobre poluente"
+        },
+        {
+          "text": "Me fale mais sobre substâncias"
+        },
+        {
+          "text": "Poluentes"
+        },
+        {
+          "text": "Quais são as substâncias que mais poluem nosso oceano?"
+        },
+        {
+          "text": "Quais são os principais poluentes que estão presentes nas águas"
+        },
+        {
+          "text": "Quero entender mais sobre os poluentes presentes nas águas"
+        },
+        {
+          "text": "Quero entender sobre o os maleficios da agua estar poluida"
+        },
+        {
+          "text": "Tenho algumas dúvidas sobre poluentes"
+        },
+        {
+          "text": "Vi algo na agua"
+        }
+      ],
+      "description": "Usuário entenderá sobre substâncias"
+    },
+    {
+      "intent": "problema_identificado",
+      "examples": [
+        {
+          "text": "A OceanWave está contra o que?"
+        },
+        {
+          "text": "A OceanWave luta contra o que exatamente?"
+        },
+        {
+          "text": "Com o que exatamente vocês batalharão?"
+        },
+        {
+          "text": "Contra o que vocês lutrarão?"
+        },
+        {
+          "text": "Estarão lutando contra o que?"
+        },
+        {
+          "text": "Estou com dúvida na questão da problemática identificada"
+        },
+        {
+          "text": "Gostaria de entender melhor o problema que vocês enfrentam"
+        },
+        {
+          "text": "Me conte sobre com o que vocês irão melhorar"
+        },
+        {
+          "text": "Me explica sobre a problemática localizada por vocês?"
+        },
+        {
+          "text": "Não entendi sobre a problemática"
+        },
+        {
+          "text": "Problema"
+        },
+        {
+          "text": "Qual o problema identificado pela empresa?"
+        },
+        {
+          "text": "Qual problema vocês irão enfrentar?"
+        },
+        {
+          "text": "Sobre o problema"
+        }
+      ],
+      "description": "Explicaremos o problema que identificamos"
+    },
+    {
+      "intent": "projeto",
+      "examples": [
+        {
+          "text": "Como é implementada a ideia de vocês?"
+        },
+        {
+          "text": "Como esse projeto irá funcionar?"
+        },
+        {
+          "text": "Como funciona a iniciativa da empresa?"
+        },
+        {
+          "text": "Gostaria de entender a ideia da OceanWave"
+        },
+        {
+          "text": "Me apresente a ideia da OceanWave"
+        },
+        {
+          "text": "Me conta sobre o projeto da OceanWave"
+        },
+        {
+          "text": "Me dê um breve resumo da empresa"
+        },
+        {
+          "text": "Me explica o projeto da empresa"
+        },
+        {
+          "text": "Me explique sobre o projeto de vocês"
+        },
+        {
+          "text": "O projeto como um todo"
+        },
+        {
+          "text": "Qual é a ideia principal da empresa"
+        },
+        {
+          "text": "Quem são vocês?"
+        },
+        {
+          "text": "Quero saber como vai funcionar a OceanWave"
+        },
+        {
+          "text": "Resumo do projeto"
+        }
+      ],
+      "description": "Explicar o usuário um resumo do nosso projeto"
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Beleza?"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Eae"
+        },
+        {
+          "text": "Eai"
+        },
+        {
+          "text": "Eai meu parceiro"
+        },
+        {
+          "text": "Fala aí!"
+        },
+        {
+          "text": "lista novamente"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "oi, tudo bem?"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "salve"
+        }
+      ],
+      "description": "Saudação ao usuário"
+    },
+    {
+      "intent": "seu_apoio",
+      "examples": [
+        {
+          "text": "Achei incrivel! Quero te ajudar nessa"
+        },
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "Apoio"
+        },
+        {
+          "text": "Como eu me encaixo nesse cenário"
+        },
+        {
+          "text": "Como posso ajudar?"
+        },
+        {
+          "text": "Como posso apoiar vocês nisso?"
+        },
+        {
+          "text": "Como precisam de nosso apoio?"
+        },
+        {
+          "text": "Fiquei motivo em ajudar"
+        },
+        {
+          "text": "Me conte como ajudar vocês"
+        },
+        {
+          "text": "Me explica o que devo fazer, que farei"
+        },
+        {
+          "text": "Preciso ajudar vocês"
+        },
+        {
+          "text": "Quero muito ajudar"
+        },
+        {
+          "text": "Vamos mudar o Brasil todos juntos"
+        }
+      ],
+      "description": "Como vamos precisar de nossos apoiadores?"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cep",
+          "patterns": [
+            "^[0-9]{5}-[0-9]{3}$",
+            "^([0-9]{5}[\\s]{0,1}[0-9]{3})$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cnpj",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cnpj",
+          "patterns": [
+            "^[0-9]{2}\\.[0-9]{3}\\.[0-9]{3}\\/[0-9]{2}\\-[0-9]{1}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "^\\d{3}\\.?\\d{3}\\.?\\d{3}-?\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "([a-zA-Z0-9+.-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9_-]+)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "forma_dialogo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "texto",
+          "synonyms": [
+            "digitado",
+            "escreva",
+            "escrito",
+            "forma escrita",
+            "texto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "voz",
+          "synonyms": [
+            "audio",
+            "em audio",
+            "forma falada",
+            "gravação, por favor",
+            "gravado"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "errado",
+            "n",
+            "nao",
+            "Não",
+            "não está",
+            "não, obrigado",
+            "não precisa",
+            "não queri"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "afirmativo",
+            "blz",
+            "ok",
+            "s",
+            "sim",
+            "sim, por favor",
+            "ss"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "^\\(\\d{2}\\)\\s*\\d{5}-\\d{4}$"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "^\\(\\d{2}\\)\\s*\\d{4}-\\d{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 4,
+        "entities": 11,
+        "dialog_nodes": 53
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1717365326377",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1717365353778",
+      "previous_sibling": "node_1_1717367920696"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1717365354677",
+      "context": {
+        "email": "@email.literal"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_1_1717365354687"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu telefone:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1717366405376",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1717366405378",
+      "previous_sibling": "handler_8_1717366405378"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1717366323728",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf",
+      "event_name": "input",
+      "dialog_node": "handler_7_1717366323728"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu e-mail:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1717365354677",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1717365354687",
+      "previous_sibling": "handler_1_1717365354687"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu CPF:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1717366323728",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1717366323728",
+      "previous_sibling": "handler_7_1717366323728"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1717366405376",
+      "context": {
+        "telefone": "@telefone.literal"
+      },
+      "conditions": "@telefone",
+      "event_name": "input",
+      "dialog_node": "handler_8_1717366405378"
+    },
+    {
+      "type": "standard",
+      "title": "Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gostaria de realizar um cadastro conosco?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Claro!",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Hoje não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#cadastro-end",
+      "dialog_node": "node_10_1717365193044",
+      "previous_sibling": "node_5_1717457267005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quando precisar refazer o cadastro, estare aqui!\nSegue a lista abaixo novamente:\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717367920696",
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_10_1717448984651",
+      "previous_sibling": "node_1_1717368876887"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Com certeza, aqui está algumas curiosidades do tubarão mais amado:\nO tubarão-branco é um dos maiores predadores do oceano e é encontrado em águas temperadas ao redor do mundo. O tubarão-branco pode chegar a 6 metros de comprimento e pesar até 2 toneladas. As fêmeas são geralmente maiores que os machos. A espécie está ameaçada de extinção devido à pesca predatória, perda de habitat e poluição :(\n\nGostaria de conhecer sobre mais algumas espécie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717557559522",
+      "conditions": "#curiosidade_Tubarão-branco",
+      "dialog_node": "node_10_1717707136823",
+      "previous_sibling": "node_6_1717706819592"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, aqui está algumas características do peixe-boi-da-Amazônia:\nEle é o maior mamífero aquático da América do Sul e é encontrado nas florestas tropicais da Amazônia. A espécie está ameaçada de extinção por causa da caça, perda de habitat e emaranhamento em redes de pesca,  peixe-boi-da-Amazônia é classificado como uma espécie em perigo pela União Internacional para Conservação da Natureza (IUCN) :(\n\nGostaria de conhecer outra espécie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717707136823",
+      "conditions": "#curiosidade_Peixe-boi-da-Amazônia",
+      "dialog_node": "node_10_1717707222131"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu nome é: $nome\nSeu email é: $email\nSeu CPF é: $cpf\nSeu telefone é: $telefone\n\nPosso confirmar seu cadastro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Está sim!",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não está!",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1717365326377",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1717367920696"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro concluído com sucesso, será um prazer ter você aprendendo mais conosco!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1717367920696",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_1_1717368876887"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, se tiver mais alguma dúvida, poderá contar comigo. Gostei de ter conversado com você!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717707222131",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_1_1717707284424"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poluentes Químicos:\n\nPoluentes Orgânicos Persistentes (POPs): Incluem DDT, PCBs, pesticidas organoclorados, DDE e nonilfenol. São altamente tóxicos e podem causar disfunções hormonais, imunológicas, neurológicas e reprodutivas em animais e humanos.\nSubstâncias Perfluoroalquil e Polifluoroalquil (PFAS): Utilizadas em produtos repelentes de água, tapetes e embalagens alimentícias, podem contaminar a água e os animais marinhos, afetando a reprodução, o desenvolvimento e o sistema imunológico.\nFtalatos e Bisfenol A (BPA): Presentes em plásticos, podem prejudicar a fertilidade, o desenvolvimento fetal e o sistema endócrino em diversas espécies.\n\nGostaria de conhecer algum outro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Plástico",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Plástico"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Nutrientes",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Nutrientes"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Petróleo",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Petróleo"
+                  }
+                }
+              },
+              {
+                "label": "Poluição Sonora",
+                "value": {
+                  "input": {
+                    "text": "Poluição Sonora"
+                  }
+                }
+              },
+              {
+                "label": "Poluição Térmica",
+                "value": {
+                  "input": {
+                    "text": "Poluição Térmica"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Resíduos Sólidos",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Resíduos Sólidos"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1717721359711",
+      "conditions": "#poluente_quimico",
+      "dialog_node": "node_1_1717795321769"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A OceanWave oferece uma solução completa para os desafios da economia azul brasileira:\n\nPlataforma integrada: Coleta e disponibiliza dados de diversas ONGs e iniciativas, nacionais e internacionais, em um único local.\nDados em tempo real: Permite a tomada de decisões imediatas e com menor impacto ambiental.\nSistematização e análise de dados: Gera insights valiosos para o desenvolvimento de políticas públicas, projetos de pesquisa e ações de conservação.\nAlinhamento com o Global Ocean Observing System (GOOS) da UNESCO: Garante a qualidade e confiabilidade dos dados.\nCompromisso com a Década do Oceano: Contribui para a iniciativa global de observação e proteção dos oceanos.\n\nGostaria de entender como precisaremos do seu apoio?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "O apoio?",
+                "value": {
+                  "input": {
+                    "text": "Apoio"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1717709386594",
+      "conditions": "#nossa_solucao",
+      "dialog_node": "node_2_1717709755140"
+    },
+    {
+      "type": "standard",
+      "title": "agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não tem de que, estou aqui para lhe auxiliar da melhor forma!\n"
+              },
+              {
+                "text": "Aqui você poderá aprender muito mais, estou aqui por você e principalmente pelo oceano!\n"
+              },
+              {
+                "text": "Estou aqui para lhe mostrar a beleza do oceano\n"
+              },
+              {
+                "text": "Juntos podemos ajudar o oceano, pode contar comigo sempre que precisar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_3_1717558029760",
+      "previous_sibling": "node_6_1717721359711"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esse foi o problema identificado por nós, quando quiser conhecer nossa solução, fique à vontade, qualquer coisa que precisar, estarei sempre aqui :)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717709386594",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_3_1717709966183",
+      "previous_sibling": "node_2_1717709755140"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seria a dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1717457267005",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_4_1717457343725"
+    },
+    {
+      "type": "standard",
+      "title": "Curiosidade_Especie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dentro desse vasto oceano há uma infinidade de espécies diferentes!\nEstou aqui para tirar qualquer dúvida sobre qualquer uma, podemos prosseguir?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#curiosidade_especies",
+      "dialog_node": "node_5_1717457267005",
+      "previous_sibling": "node_5_1717708763733"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, se tiver mais alguma dúvida, poderá contar comigo. Gostei de ter conversado com você!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717707136823",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_5_1717707245508",
+      "previous_sibling": "node_10_1717707222131"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Com certeza, fico feliz por querer nos conhecer melhor :)\n\nA OceanWave é uma plataforma inovadora que coleta e disponibiliza dados marinhos precisos e em tempo real, impulsionando o desenvolvimento sustentável da economia azul no Brasil. Acreditamos que a informação é a chave para a gestão eficiente dos oceanos e da vasta região da Amazônia Azul, que representa metade da área terrestre do país.\n\nGostaria de conhecer algo a mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Entenda nosso projeto:",
+            "options": [
+              {
+                "label": "Problema identificado",
+                "value": {
+                  "input": {
+                    "text": "Problema identificado"
+                  }
+                }
+              },
+              {
+                "label": "Solução",
+                "value": {
+                  "input": {
+                    "text": "Solução"
+                  }
+                }
+              },
+              {
+                "label": "Apoio",
+                "value": {
+                  "input": {
+                    "text": "Como posso apoiar?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#projeto",
+      "dialog_node": "node_5_1717708763733",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fiquei muito contente em te mostrar quem somos, qualquer coisa que precisar, estarei sempre aqui :)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1717708763733",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_5_1717710707834",
+      "previous_sibling": "node_6_1717709386594"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro! Aqui está algumas curiosidades dessa baleia tão fascinante:\nA vaquita é a menor baleia do mundo e é encontrada apenas no Golfo da Califórnia, no México. Estima-se que existam apenas cerca de 10 indivíduos restantes, e a espécie está à beira da extinção devido ao emaranhamento em redes de pesca, está em perigo crítico! :(\n\nGostaria de perguntar sobre algum outro animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "Não"
+                  }
+                }
+              },
+              {
+                "label": "Peixe-boi-da-Amazônia",
+                "value": {
+                  "input": {
+                    "text": "Peixe-boi-da-Amazônia"
+                  }
+                }
+              },
+              {
+                "label": "Tubarão-branco",
+                "value": {
+                  "input": {
+                    "text": "Tubarão-branco"
+                  }
+                }
+              },
+              {
+                "label": "Tartaruga-de-couro",
+                "value": {
+                  "input": {
+                    "text": "Tartaruga-de-couro"
+                  }
+                }
+              },
+              {
+                "label": "Salmão-do-atlântico",
+                "value": {
+                  "input": {
+                    "text": "Salmão-do-atlântico"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1717555963758",
+      "conditions": "#curiosidade_vaquita",
+      "dialog_node": "node_6_1717557559522"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, se tiver mais alguma dúvida, poderá contar comigo. Gostei de ter conversado com você!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1717557559522",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_6_1717706819592"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Brasil possui um enorme potencial para a economia azul, mas enfrenta desafios como:\n\nFalta de dados precisos e em tempo real sobre os oceanos: Impedindo o planejamento estratégico e a tomada de decisões assertivas em diversas áreas, como pesca, turismo, transporte marítimo e gestão ambiental.\nCarência de uma rede integrada de observatórios costeiros: Limitando a coleta de dados consistentes e abrangentes sobre a Amazônia Azul.\nDificuldade em integrar e compartilhar dados entre diferentes ONGs e iniciativas: Dificultando a pesquisa científica e a colaboração entre diversos setores.\n\nGostaria de entender sobre como solucionaremos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Qual a solução?",
+                "value": {
+                  "input": {
+                    "text": "Solução"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1717708763733",
+      "conditions": "#problema_identificado",
+      "dialog_node": "node_6_1717709386594"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A poluição dos oceanos é um problema complexo e abrangente, com uma variedade de substâncias e poluentes contribuindo para a degradação do ambiente marinho. Para te ajudar a entender essa questão de forma mais completa, vou dividir a resposta em tópicos, detalhando os principais grupos de poluentes, seus efeitos nocivos e algumas informações relevantes:\n\nPoluentes Químicos;  Poluição por Plástico; Poluição por Nutrientes; Poluição por Petróleo; Poluição Sonora; Poluição Térmica;  Poluição por Resíduos Sólidos.\n\nGostaria de saber mais sobre qual poluente em específico?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Poluentes Químicos",
+                "value": {
+                  "input": {
+                    "text": "Poluentes Químicos"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Plástico;",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Plástico;"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Nutrientes",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Nutrientes"
+                  }
+                }
+              },
+              {
+                "label": "Poluição por Petróleo",
+                "value": {
+                  "input": {
+                    "text": "Poluição por Petróleo"
+                  }
+                }
+              },
+              {
+                "label": "Poluição Sonora",
+                "value": {
+                  "input": {
+                    "text": "Poluição Sonora"
+                  }
+                }
+              },
+              {
+                "label": " Poluição por Resíduos Sólidos",
+                "value": {
+                  "input": {
+                    "text": " Poluição por Resíduos Sólidos"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#poluentes",
+      "dialog_node": "node_6_1717721359711"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Insira seu nome:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1717365193044",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1717365326377"
+    },
+    {
+      "type": "standard",
+      "context": {
+        "forma_dialogo": "@forma_dialogo"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@forma_dialogo",
+      "dialog_node": "node_8_1717540754194",
+      "previous_sibling": "node_3_1717558029760"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre_Extinção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre alguns animais mais conhecidos que estão entrando em extinção, infelizmente se destacam: Vaquita; Peixe-boi-da-Amazônia; Tubarão-branco; Tartaruga-de-couro; Salmão-do-atlântico; dentre outros.\n\nGostaria de conhecer melhor sobre qual animal?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Vaquita",
+                "value": {
+                  "input": {
+                    "text": "vaquita"
+                  }
+                }
+              },
+              {
+                "label": "Peixe-boi-da-Amazônia",
+                "value": {
+                  "input": {
+                    "text": "Peixe-boi-da-Amazônia"
+                  }
+                }
+              },
+              {
+                "label": "Tubarão-branco",
+                "value": {
+                  "input": {
+                    "text": "Tubarão-branco"
+                  }
+                }
+              },
+              {
+                "label": "Tartaruga-de-couro",
+                "value": {
+                  "input": {
+                    "text": "Tartaruga-de-couro"
+                  }
+                }
+              },
+              {
+                "label": "Salmão-do-atlântico",
+                "value": {
+                  "input": {
+                    "text": "Salmão-do-atlântico"
+                  }
+                }
+              }
+            ],
+            "description": "vaquita",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1717457343725",
+      "conditions": "#extincao",
+      "dialog_node": "node_8_1717555963758"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fiquei muito contente em te mostrar como iremos mudar o Brasil, qualquer coisa que precisar, estarei sempre aqui :)\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717709755140",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@sim-nao:nao",
+      "dialog_node": "node_8_1717710031194"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para alcançar nossos objetivos e contribuir para o desenvolvimento sustentável da economia azul no Brasil, precisamos do apoio de:\n\nGoverno: Investimento em infraestrutura e tecnologia para a expansão da rede de observatórios costeiros e na modernização da plataforma OceanWave.\nEmpresas: Parcerias para a aplicação dos dados da OceanWave em seus negócios e na criação de novos produtos e serviços.\nAcademia: Colaboração em projetos de pesquisa científica e na formação de profissionais qualificados.\nSociedade civil: Apoio na conscientização da importância da preservação dos oceanos e na promoção da sustentabilidade.\nJuntos, podemos construir um futuro próspero para o Brasil e para os oceanos!\n\nFico feliz por estar nessa com a OceanWave, iremos nadar em pró do futuro mais azul\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1717709755140",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#seu_apoio",
+      "dialog_node": "node_9_1717710184192",
+      "previous_sibling": "node_8_1717710031194"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1717365326377",
+      "variable": "$email",
+      "dialog_node": "slot_10_1717365354677",
+      "previous_sibling": "handler_1_1717365353778"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1717365326377",
+      "variable": "$cpf",
+      "dialog_node": "slot_1_1717366323728",
+      "previous_sibling": "slot_10_1717365354677"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1717365326377",
+      "variable": "$telefone",
+      "dialog_node": "slot_1_1717366405376",
+      "previous_sibling": "slot_1_1717366323728"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo, sou o Seascape!\nTodos nós temos a missão de salvar o oceano que nos pede socorro, e estou aqui para lhe auxiliar:\n1 - Cadastro usuário\n2 - Curiosidade de espécies\n3 - Nosso projeto\n4 - Poluentes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opções para escolher:",
+            "options": [
+              {
+                "label": "Cadastro usuário",
+                "value": {
+                  "input": {
+                    "text": "Cadastro usuário"
+                  }
+                }
+              },
+              {
+                "label": "Curiosidade das espécies",
+                "value": {
+                  "input": {
+                    "text": "Curiosidade das espécies"
+                  }
+                }
+              },
+              {
+                "label": "Nosso projetp",
+                "value": {
+                  "input": {
+                    "text": "Me conte sobre o projeto da OceanWave"
+                  }
+                }
+              },
+              {
+                "label": "Poluentes",
+                "value": {
+                  "input": {
+                    "text": "Poluentes"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || #saudacao",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_8_1717540754194"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Marola"
+    }
+  ],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "cp1",
+  "name": "Seascape-dialog"
+}
