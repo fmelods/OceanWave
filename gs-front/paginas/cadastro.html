@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OceanWave - Cadastro</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/shared.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+    <script src="../js/cadastro.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--INICIO HEADER-->
+      <header id="header1">
+        <div class="header-MechAI"><h2>OceanWave</h2></div>
+        <nav id="menu">
+          <ul>
+            <li><a href="../index.html" tabindex="1">Inicio</a></li>
+            <li><a href="../paginas/about.html" tabindex="2">About</a></li>
+            <li>
+              <a href="../paginas/cadastro.html" tabindex="3">Cadastro</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--FINAL HEADER-->
+
+      <main class="main-content">
+        <div class="cadastro-form">
+          <h2>Cadastro de Projeto</h2>
+          <form id="projectForm">
+            <div class="form-group">
+              <label for="name">
+                <img
+                  src="../img/profile.svg"
+                  alt="Ícone de perfil"
+                  class="icon"
+                />
+                Nome:
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                aria-label="Nome do responsável pelo projeto"
+                tabindex="4"
+              />
+            </div>
+            <div class="form-group">
+              <label for="ong">
+                <img
+                  src="../img/hheart.svg"
+                  alt="Ícone de coração"
+                  class="icon"
+                />
+                ONG:
+              </label>
+              <input
+                type="text"
+                id="ong"
+                name="ong"
+                aria-label="Nome da ONG"
+                tabindex="5"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">
+                <img src="../img/email.svg" alt="Ícone de email" class="icon" />
+                Email para contato:
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                aria-label="Endereço de email"
+                tabindex="6"
+              />
+            </div>
+            <div class="form-group">
+              <label for="details">
+                <img
+                  src="../img/round.svg"
+                  alt="Ícone de detalhes"
+                  class="icon"
+                />
+                Detalhes do Projeto:
+              </label>
+              <textarea
+                id="details"
+                name="details"
+                aria-label="Detalhes do projeto"
+                tabindex="7"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" id="submit-btn">Enviar</button>
+            </div>
+          </form>
+          <p id="message"></p>
+        </div>
+      </main>
+
+      <footer id="footer">
+        <h2>OceanWave</h2>
+      </footer>
+    </div>
+  </body>
+</html>

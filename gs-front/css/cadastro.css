@@ -1,0 +1,212 @@
+/* cadastro.css */
+.main-content {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffffcc;
+  color: black;
+  width: 60%;
+  margin: 5vh auto;
+  padding: 5vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.cadastro-form h2 {
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.form-group {
+  margin-bottom: 2vh;
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.5vh;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1vh;
+  font-size: 1.2vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #0077be;
+  box-shadow: 0 0 5px rgba(0, 119, 190, 0.5);
+}
+
+#submit-btn {
+  background-color: #5499d8;
+  color: white;
+  padding: 1vh 2vw;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  margin-top: 2vh;
+}
+
+#submit-btn:hover {
+  background-color: #367bbd;
+  transform: scale(1.05);
+}
+
+#message {
+  margin-top: 2vh;
+  font-size: 1.5vw;
+  color: red;
+}
+
+/* Extra Pequeno (XS) - Telefones Pequenos: Menos de 576 pixels */
+@media (max-width: 575.98px) {
+  .cadastro-form {
+    width: 90%;
+  }
+
+  .cadastro-form h2 {
+    font-size: 6vw;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea,
+  #submit-btn {
+    font-size: 4vw;
+  }
+
+  #submit-btn {
+    padding: 1.5vh 3vw;
+  }
+
+  #message {
+    font-size: 3vw;
+  }
+}
+
+/* Pequeno (SM) - Telefones Médios e Tablets Pequenos: 576px a 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cadastro-form {
+    width: 80%;
+  }
+
+  .cadastro-form h2 {
+    font-size: 5vw;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea,
+  #submit-btn {
+    font-size: 3.5vw;
+  }
+
+  #submit-btn {
+    padding: 1.5vh 3vw;
+  }
+
+  #message {
+    font-size: 2.5vw;
+  }
+}
+
+/* Médio (MD) - Tablets e Laptops: 768px a 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cadastro-form {
+    width: 70%;
+  }
+
+  .cadastro-form h2 {
+    font-size: 4vw;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea,
+  #submit-btn {
+    font-size: 2.5vw;
+  }
+
+  #submit-btn {
+    padding: 1.5vh 3vw;
+  }
+
+  #message {
+    font-size: 2vw;
+  }
+}
+
+/* Grande (LG) - Desktops Médios: 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cadastro-form {
+    width: 65%;
+  }
+
+  .cadastro-form h2 {
+    font-size: 3.5vw;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea,
+  #submit-btn {
+    font-size: 2vw;
+  }
+
+  #submit-btn {
+    padding: 1.5vh 3vw;
+  }
+
+  #message {
+    font-size: 1.8vw;
+  }
+}
+
+/* Extra Grande (XL) - Desktops Grandes: 1200px ou mais */
+@media (min-width: 1200px) {
+  .cadastro-form {
+    width: 60%;
+  }
+
+  .cadastro-form h2 {
+    font-size: 3vw;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group textarea,
+  #submit-btn {
+    font-size: 1.5vw;
+  }
+
+  #submit-btn {
+    padding: 1.5vh 3vw;
+  }
+
+  #message {
+    font-size: 1.5vw;
+  }
+}

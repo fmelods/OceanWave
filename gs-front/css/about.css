@@ -1,0 +1,205 @@
+/* about.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "integrantes"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#integrantes {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas:
+    "text"
+    "marcos"
+    "leonardo"
+    "felipe";
+  gap: 0.5vw;
+}
+
+#sobre {
+  color: black;
+  background-color: #ffffffcc; /* Fundo branco com transparência */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+#sobre,
+#integrantes {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.borda {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 63vw;
+  height: 12vw;
+  background-color: #ffffffcc;
+  border-radius: 2.5vw;
+  border: 0.2vw solid #dddddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.infogeral {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  width: 22vw;
+  font-size: 1.5vw;
+}
+
+.infogeral,
+.infogeral,
+.infogeral {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+}
+
+#marcos-img,
+.leo-img,
+.melo-img {
+  position: absolute;
+  right: 15vw;
+  bottom: -0.5vw;
+  margin: none;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Extra Pequeno (XS) - Telefones Pequenos: Menos de 576 pixels */
+@media (max-width: 575.98px) {
+  .infogeral {
+    width: 45vw;
+    font-size: 2.7vw;
+  }
+
+  .borda {
+    width: 90vw;
+    height: 25vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 46vw;
+    bottom: -5.5vw;
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
+/* Pequeno (SM) - Telefones Médios e Tablets Pequenos: 576px a 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .infogeral {
+    width: 35vw;
+    font-size: 2.1vw;
+  }
+
+  .borda {
+    width: 80vw;
+    height: 20vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 38vw;
+    bottom: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+/* Médio (MD) - Tablets e Laptops: 768px a 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .infogeral {
+    width: 30vw;
+    font-size: 1.9vw;
+  }
+
+  .borda {
+    width: 70vw;
+    height: 18vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 32vw;
+    bottom: -2.5vw;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+
+/* Grande (LG) - Desktops Médios: 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .infogeral {
+    width: 25vw;
+    font-size: 1.8vw;
+  }
+
+  .borda {
+    width: 65vw;
+    height: 16vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 27vw;
+    bottom: -1vw;
+    width: 12vw;
+    height: 12vw;
+  }
+}
+
+/* Extra Grande (XL) - Desktops Grandes: 1200px ou mais */
+@media (min-width: 1200px) {
+  .infogeral {
+    width: 22vw;
+    font-size: 1.5vw;
+  }
+
+  .borda {
+    width: 63vw;
+    height: 12vw;
+  }
+
+  #marcos-img,
+  .leo-img,
+  .melo-img {
+    right: 25vw;
+    bottom: 0.1vw;
+    width: 10vw;
+    height: 10vw;
+  }
+}
